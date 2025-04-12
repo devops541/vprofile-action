@@ -23,3 +23,4 @@ spec:
               service:
                 name: vpromq01
                 port:
+                  number: 15672
