@@ -17,3 +17,10 @@ spec:
             name: my-app
             port:
               number: 8080
+      - path: /rabbitmq
+        pathType: Prefix
+        backend:
+          service:
+            name: vpromq01
+            port:
+              number: 15672
